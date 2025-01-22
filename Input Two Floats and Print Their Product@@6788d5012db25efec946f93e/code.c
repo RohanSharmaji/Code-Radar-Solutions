@@ -6,7 +6,8 @@ int main()
   float ninja;
   scanf("%f %f",&yo_yo_honey,&blue_eyes);
   ninja=yo_yo_honey*blue_eyes;
-  printf("Product: %2.f",ninja)
+  printf("Product: %2.f",ninja);
+  return 0;
 
 
 
