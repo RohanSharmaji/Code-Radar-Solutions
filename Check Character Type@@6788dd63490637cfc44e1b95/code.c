@@ -3,7 +3,7 @@ int main()
 {
   char topa;
   scanf("%c",&topa);
-  if (topa=='a','e','i','o','u')
+  if ((topa=='a')||(topa=='e')||(topa=='i')||(topa=='o')||(topa=='u'))
   {
     printf("Vowel");
   }
