@@ -11,6 +11,13 @@ int main()
   {
     printf("Consonant");
   }
-   
+  else if((topa>='0')&&(topa<=9))
+  {
+    printf("Digit");
+  }
+   else
+   {
+    printf("Special Character");
+   }
 
 }
