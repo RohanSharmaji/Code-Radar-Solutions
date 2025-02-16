@@ -15,6 +15,10 @@ int main()
   {
     printf("Digit");
   }
+  else if((topa>='A')&&(topa<='Z'))
+  {
+    printf("Vowel")
+  }
    else
    {
     printf("Special Character");
