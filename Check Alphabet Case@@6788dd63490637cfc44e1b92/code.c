@@ -2,7 +2,7 @@
 int main()
 {
     char mo;
-    scanf("%c,&mo);
+    scanf("%c",&mo);
     if((mo<='A')||(mo>='Z'))
     {
         printf("Uppercase");
