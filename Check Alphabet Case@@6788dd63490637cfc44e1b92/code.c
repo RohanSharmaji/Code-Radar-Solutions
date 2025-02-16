@@ -12,4 +12,8 @@ int main()
         if((mo>='a')&&(mo<='z'))
         printf("Lowercase");
     }
+    else
+    {
+        printf("Not an alphabet")
+    }
 }
