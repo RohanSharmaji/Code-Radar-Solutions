@@ -16,9 +16,9 @@ int main()
     }
  else if((first==0)&&(second<0))
  {
-    printf("True")
+    printf("True");
  }
 else{
-    printf("False")
+    printf("False");
 }
 }
