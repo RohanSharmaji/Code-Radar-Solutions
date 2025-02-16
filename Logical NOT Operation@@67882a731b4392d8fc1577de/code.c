@@ -3,8 +3,8 @@ int main()
 {
  int first;
  int second;
- scanf("%d %d",&first,&second);
- if (first!>0)
+ scanf("%d ",&first);
+ if (first>0)
  {
     printf("True");
  }
