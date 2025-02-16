@@ -8,9 +8,17 @@ int main()
  {
     printf("True");
  }
- else if((first==0)||(second==0))
+ 
+ else if((second==0)&&(first>0))
+    {
+        printf("True");
+    
+    }
+ else if((first==0)&&(second<0))
  {
-    printf("True");
+    printf("True")
  }
-
+else{
+    printf("False")
+}
 }
